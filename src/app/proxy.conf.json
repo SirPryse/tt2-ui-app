@@ -1,0 +1,6 @@
+{
+    "/api": {
+    "target": "https://kirito-bot-web-backend.herokuapp.com",
+    "secure": false
+    }
+}
