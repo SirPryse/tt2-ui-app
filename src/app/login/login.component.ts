@@ -31,9 +31,9 @@ export class LoginComponent implements OnInit {
       //alert(this.registerForm.controls.email.value);
       this.tokenRequest.password = this.f.password.value;
       this.tokenRequest.username = this.f.email.value;
-      alert(this.loginService.getResponse(this.tokenRequest));
+      //alert(this.loginService.getResponse(this.tokenRequest));
       //alert(JSON.stringify(this.tokenRequest));
-      //this.router.navigateByUrl('/admin', {replaceUrl: true});
+      this.router.navigateByUrl('/admin', {replaceUrl: true});
     }
    
   }

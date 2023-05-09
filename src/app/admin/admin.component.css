@@ -1,0 +1,51 @@
+.titan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .head,
+  .body,
+  .legs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+  }
+
+  .big-box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+  }
+
+  .checkbox {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+  }
